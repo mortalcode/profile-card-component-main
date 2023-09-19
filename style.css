@@ -1,0 +1,84 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagetop {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  left: -10%;
+  top: -35%;
+  z-index: -101;
+}
+.imagebotton {
+  position: absolute;
+  width: 60%;
+  height: 80%;
+  right: -10%;
+  bottom: -35%;
+  z-index: -100;
+}
+.imgprofil {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 8px solid white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 100%;
+  left: 50%;
+}
+h3 {
+  margin: 0px;
+  color: hsl(229, 23%, 23%);
+  padding-top: 90px;
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+.stat {
+  padding-top: 20px;
+  text-align: center;
+}
+.Card {
+  width: 400px;
+  height: 430px;
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  border-radius: 12px;
+  box-shadow: 0px 5px 50px rgb(134, 134, 134);
+}
+.Component {
+  height: 70%;
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  flex-direction: column;
+}
+.Profil {
+  background-image: url(images/bg-pattern-card.svg);
+  height: 30%;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 15px 15px 0px 0px;
+}
+.statistique {
+  display: flex;
+  justify-content: space-evenly;
+}
+.adress {
+  text-align: center;
+}
+.colorgris,
+span {
+  color: hsl(227, 10%, 46%);
+  padding: 10px 0px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+.bas {
+  font-size: 12px;
+}
